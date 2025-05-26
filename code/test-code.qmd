@@ -1,0 +1,38 @@
+---
+title: "Test code"
+author: "An Bui"
+date: today
+format: 
+  html:
+    toc: true
+execute:
+  message: false
+  warning: false
+---
+
+# Packages
+
+```{r}
+library(tidyverse)
+library(here)
+library(readxl)
+```
+
+# Data
+
+```{r}
+drought_exp <- read_xlsx(
+  here("data", "Valliere_etal_EcoApps_Data.xlsx"),
+  sheet = "First Harvest"
+)
+```
+
+# Displaying sample of rows from data
+
+```{r}
+slice_sample(
+  drought_exp,
+  n = 10
+)
+```
+
