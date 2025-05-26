@@ -26,4 +26,4 @@ In the code folder, there is a file called `test-code.qmd` that contains all cod
 
 ## Rendered output
 
-Link to the rendered .html.
+The rendered output for the code in this repository is [here](https://an-bui.github.io/README-repo/code/test-code.html). 
